@@ -1,0 +1,359 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--CSS DEFINITIONS-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <!------------------->
+
+    <!--ICON & TITLE-->
+    <link rel="icon" href="../img/logo1.png" />
+    <title>Projects</title>
+    <!---------------->
+
+    <!--META DATA-->
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Nordine El Ammari portfolio webiste"
+    />
+    <meta
+      name="keywords"
+      content="Nordine El Ammari, Nordine El Ammari, Nordine, El Ammari, Université de Lille, Infomation Sciences and Technology, Software"
+    />
+    <meta name="author" content="Nordine El Ammari" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!------------->
+
+    <!--FONTS-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <!--------->
+  </head>
+
+  <body>
+  <!--Navigation Bar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="../index.html">
+      <img src="../img/logo1.png" height="70" alt="ck-logo" />
+    </a>
+
+    <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Acceuil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"
+          >À propos</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="projects.html">Projets<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="resume.html">CV</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Navigation Bar-->
+
+    <!--Page Jumbotron Introduction-->
+
+    <div class="jumbotron jumbotron-fluid text-center">
+      <h1 class="display-2">Mes Projets!</h1>
+      <p class="lead">
+        Mes projets couvrent un large spectre de domaines : développement web, programmation,
+        réseaux et apprentissage automatique.
+      </p>
+    </div>
+
+    <!--Page Jumbotron Introduction-->
+
+    <!--Filter Section-->
+    <!--
+        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="all-pill" data-toggle="pill" data-target=".all" role="tab" aria-controls="pills-home" aria-selected="true">All</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" type="button" data-toggle="collapse" data-target=".n-prg" aria-expanded="true" area-controls="web-dev1">Programing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Web Development</a>
+            </li>
+          </ul>
+          -->
+    <!--FilterSection-->
+
+    <!--Project Cards-->
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <!--Card Deck 1-->
+        <div class="col-md-6 col-lg-4">
+          <div class="card text-center border-dark">
+            <div class="card-header">Android</div>
+            <img
+              class="card-img-top"
+              alt="python"
+              style="height: 400px"
+              src="../img/card-images/android (1).png"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Anime App</h5>
+              <p class="card-text">
+                Une application native Android(apk) développée pour téléphone. Cette application permet de retrouver tous vos animés préférés, voir les informations qui lui sont associées (Date de sortie, résumé, auteurs etc..) et même de pouvoir les ajoutés à votre liste de favoris (peut servir de watchList également).
+              </p>
+              <a
+                class="btn btn-primary"
+                target="_blank"
+                href="https://github.com/elammarin/android-animeApp"
+              >
+                Github</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card text-center border-dark n-prg" id="web-dev1">
+            <div class="card-header">Web Service</div>
+            <img
+              class="card-img-top"
+              alt="python"
+              style="height: 400px"
+              src="../img/card-images/rest-api.png"
+            />
+            <div class="card-body">
+              <h5 class="card-title">API REST FlopBox</h5>
+              <p class="card-text">
+                Flopbox est une API REST qui permet de manager différents serveurs FTP ainsi que leurs fichiers. Ajout/suppresion de serveurs à manager, modification/céation/suppression des dossiers et/ou des fichiers du serveurs renseigné qui a été ajouté au préalable. Nécessaire au projet agent FlopBox.
+              </p>
+              <a
+                class="btn btn-primary"
+                target="_blank"
+                href="https://github.com/elammarin/API_REST-FlopBox"
+                >Github</a
+              >
+              <a
+                class="btn btn-dark"
+                target="_blank"
+                href="https://gitlab.univ-lille.fr/nordine.elammari.etu/flopbox-sr2/-/raw/master/demo.mkv"
+              >
+                Demo
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card text-center border-dark">
+            <div class="card-header">Web Service</div>
+            <img
+              class="card-img-top"
+              alt="discord"
+              style="height: 400px"
+              src="../img/card-images/java.png"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Agent FlopBox</h5>
+              <p class="card-text">
+                Un client permettant de se connecter à differents serveurs FTP en utilisant l'API REST Flopbox.
+                Permet d'ajouter/supprimer des serveurs FTP, lister les serveurs ajoutés, permet de gérer l'arborescence de fichiers des ces serveurs à travers plusieurs commandes à taper dans un shell.
+              </p>
+              <a
+                class="btn btn-primary"
+                target="_blank"
+                href="https://github.com/elammarin/Agent-FlopBox"
+              >
+                Github</a
+              >
+              <a
+                      class="btn btn-dark"
+                      target="_blank"
+                      href="https://gitlab.univ-lille.fr/koboyodaarthur.assima.etu/assima_elammari_projet2_sr2/-/raw/master/demo_agent.mp4"
+              >
+                Demo
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card text-center border-dark">
+            <div class="card-header">Programmation</div>
+            <img
+              class="card-img-top"
+              alt="python"
+              style="height: 400px"
+              src="../img/card-images/python-logo.png"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Javascript compiler</h5>
+              <p class="card-text">
+                Cette application permet de transformer du code javascript parsé au format JSON en code assembleur (utilisation d'une librairie C) qui pourra être directement exécuté
+              </p>
+              <a
+                class="btn btn-primary"
+                target="_blank"
+                href="https://github.com/elammarin/javascript-compiler"
+              >
+                Github</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card text-center border-dark">
+            <div class="card-header">Model Driven Engineering</div>
+            <img
+              class="card-img-top"
+              style="height: 400px"
+              alt="python"
+              src="../img/card-images/emf_logoo.png"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Markdown2Bootstrap</h5>
+              <p class="card-text">
+                Projet de transformation automatique de fichiers markdown vers une page web boostrap par une approche IDM (Ingénierie des modèles). Pour mener à bien ce projet j'ai utilisé EMF (Eclipse Modeling Framework) pour la modelisation et Acceleo pour les transformation de modèle en modèle.
+              </p>
+              <a
+                class="btn btn-primary"
+                target="_blank"
+                href="https://github.com/elammarin/projetIDM-markdown2bootstrap"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card text-center border-dark n-prg" id="web-dev1">
+            <div class="card-header">Machine Learning</div>
+            <img
+              class="card-img-top"
+              alt="python"
+              style="height: 400px"
+              src="../img/card-images/sentiment.png"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Twitter-sentiment</h5>
+              <p class="card-text">
+                Application Java permettant de classer des tweets (positif, neutre, négatif).
+                La récuperation des tweets à classés est faîtes directement sur l'API twitter selon les mots clés fournis.
+              </p>
+              <a
+                class="btn btn-primary"
+                target="_blank"
+                href="https://github.com/elammarin/twitter-sentiment"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+        <!--Card Deck 1-->
+        <!--Card Deck 2-->
+        <!--Card Deck 2-->
+        <!--Card Deck 3-->
+
+      </div>
+    </div>
+    <!--Card Deck 3-->
+
+    <!--Project Cards-->
+
+    <!--Resume Page Btn/Jumbo-->
+    <div class="jumbotron jumbotron-fluid text-center bg-dark">
+      <div class="display-4 text-white py-3">Jettez un oeil à mon CV!</div>
+      <a href="resume.html" class="btn btn-light text-dark">CV</a>
+    </div>
+    <!--Project Page Btn/Jumbo-->
+
+    <!--Footer-->
+    <footer class="footer">
+      <div class="footer-icons">
+        <div
+                class="icon footer-icon"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Visit my Linkedin!"
+        >
+          <a href="https://www.linkedin.com/in/nordine-el-ammari-584583198/" target="_blank">
+            <img
+                    src="../src/assets/images/icons/svgs/footer/linkedin.svg"
+                    alt="linkedin logo"
+                    width="55"
+                    height="55"
+            />
+          </a>
+        </div>
+
+        <div
+                class="icon footer-icon"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Checkout my code!"
+        >
+          <a href="https://github.com/elammarin" target="_blank">
+            <img
+                    src="../src/assets/images/icons/svgs/footer/github.svg"
+                    alt="github"
+                    width="55"
+                    height="55"
+            />
+          </a>
+        </div>
+
+
+
+      </div>
+      <div class="container">
+        <span class="text-muted">Copyright @Nordine El Ammari</span>
+      </div>
+    </footer>
+    <!--Footer-->
+
+    <!--Bootstrap Scripts-->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!--Bootstrap Scripts-->
+  </body>
+</html>
